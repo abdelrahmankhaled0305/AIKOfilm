@@ -4,7 +4,7 @@ An interactive movie discovery web application built with **React**, **Vite**, *
 
 ## Live Demo & Repository
 
-- **Live Demo:** [https://aik-ofilm-7rp0apt65-aiko-c1cd.vercel.app/](https://aik-ofilm-7rp0apt65-aiko-c1cd.vercel.app/)
+- **Live Demo:** [https://aik-ofilm.vercel.app](https://aik-ofilm.vercel.app)
 - **GitHub Repository:** [https://github.com/abdelrahmankhaled0305/AIKOfilm](https://github.com/abdelrahmankhaled0305/AIKOfilm)
 
 ## Features
