@@ -1,16 +1,30 @@
-# React + Vite
+# AIKOfilm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive movie discovery web application built with **React**, **Vite**, **React Router**, and the **TMDB API**. Browse movies, filter by genre, search in real time, view movie details and trailers, and manage a local favorites list.
 
-Currently, two official plugins are available:
+## Live Demo & Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Live Demo:** [https://aik-ofilm-7rp0apt65-aiko-c1cd.vercel.app/](https://aik-ofilm-7rp0apt65-aiko-c1cd.vercel.app/)
+- **GitHub Repository:** [https://github.com/abdelrahmankhaled0305/AIKOfilm](https://github.com/abdelrahmankhaled0305/AIKOfilm)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Search & Genre Filtering:** Find movies by title or filter by genre with pagination.
+- **Movie Details & Dedicated Trailer Route:** Inspect movie info and watch trailers on a dedicated page.
+- **Favorites (`localStorage`):** Save and remove favorite movies with instant state updates in the browser.
+- **Multi-Route Navigation & `404` Page:** Dedicated routes for Home, Movies, Movie Details, Movie Trailer, Favorites, and Not Found (`404`).
+- **Responsive Design & Image Fallback:** Custom responsive CSS with a sticky layout and poster load error handling (`onError`).
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, Vite, JavaScript
+- **Routing:** React Router (`react-router-dom`)
+- **API & Networking:** TMDB API, Axios
+- **Styling & Storage:** Custom CSS, `localStorage`
+
+## Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/abdelrahmankhaled0305/AIKOfilm.git](https://github.com/abdelrahmankhaled0305/AIKOfilm.git)
+   cd AIKOfilm
